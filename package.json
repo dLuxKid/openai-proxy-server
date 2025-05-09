@@ -6,6 +6,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "",
+    "start": "node index.js",
+    "build": "echo \"No build step required for Node.js\" && exit 0",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
