@@ -1,7 +1,7 @@
+import cors from "cors";
+import dotenv from "dotenv";
 import express from "express";
 import OpenAI from "openai";
-import dotenv from "dotenv";
-import cors from "cors";
 
 dotenv.config({ path: "./.env" });
 
